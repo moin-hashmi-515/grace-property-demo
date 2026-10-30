@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grace Property Consultant — Lahore | Demo Concept</title>
+<meta name="description" content="Demo concept for a listings + lead-capture website for Grace Property Consultant, Lahore: searchable properties in Faisal Town, Model Town and Johar Town, with a working enquiry form.">
+<style>
+:root{--gold:#D9C07A;--black:#111;--smoke:#F7F5F0;--line:#E5E0D0}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:#333;line-height:1.6;background:#fff}
+h1,h2,h3{color:var(--black);line-height:1.2}
+.demo{position:sticky;top:0;z-index:50;background:#111;color:#fff;text-align:center;padding:10px 14px;font-size:13px}.demo b{color:var(--gold)}
+header{background:#111;color:#fff;position:sticky;top:38px;z-index:40}.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0;gap:16px;flex-wrap:wrap}
+.brand{font-weight:800;font-size:20px}.brand span{color:var(--gold)}nav a{margin-left:18px;color:#fff;text-decoration:none;font-weight:600}
+.hero{background:var(--smoke);padding:52px 0}.hero h1{font-size:38px;max-width:720px}.hero h1 span{color:#8a6d1f}
+.btn{display:inline-block;background:var(--gold);color:#111!important;text-decoration:none;padding:12px 20px;border-radius:999px;font-weight:800;border:0;cursor:pointer}
+section{padding:48px 0}.card{border:1px solid var(--line);border-radius:14px;padding:18px;background:#fff}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.tag{display:inline-block;background:#FDF3D0;color:#7a5c00;border-radius:999px;padding:4px 10px;font-size:12px;font-weight:700}
+input,select,textarea{width:100%;padding:11px;border:1px solid #ddd;border-radius:9px;font-size:15px;margin-bottom:10px}
+label{font-size:13px;font-weight:700;display:block;margin-bottom:4px}
+form{display:grid;grid-template-columns:1fr 1fr;gap:12px}form .full{grid-column:1/-1}
+footer{background:#111;color:#ddd;padding:32px 0}footer a{color:var(--gold)}
+.note{background:#FFF3CD;border:1px solid #E8DDC8;border-radius:12px;padding:14px;font-size:14px}
+@media(max-width:760px){.grid,.grid2,form{grid-template-columns:1fr}.hero h1{font-size:30px}}
+</style></head><body>
+<div class="demo"><b>DEMO CONCEPT</b> — Pitch sample by Moin Hashmi. <b>Not</b> the official Grace Property Consultant website. Listings below are <b>sample layouts only — price on enquiry, not real listings</b> — and the enquiry form sends nothing.</div>
+<header><div class="wrap nav"><div class="brand" style="display:flex;align-items:center;gap:12px"><img src="https://graceproperty.pk/logos/gp-logo-white.png" alt="Grace Property Consultant logo" style="height:48px;width:auto;display:block"><span>Grace <span style="color:var(--gold)">Property</span> Consultant</span></div><nav><a href="#listings">Listings</a><a href="#enquiry">Enquiry</a><a href="#contact">Contact</a></nav></div></header>
+<main>
+<section class="hero"><div class="wrap">
+<h1>Property dealing done with <span>Grace.</span> — now with listings you can actually search</h1>
+<p>15+ years, 300+ families, Faisal Town, Model Town and Johar Town, Lahore. Your brochure proves the experience — this demo adds what it is missing: searchable properties and an enquiry form that captures area, budget and property type, so no lead is lost to a missed WhatsApp message.</p>
+<p><a class="btn" href="#listings">Search Sample Listings</a></p>
+</div></section>
+<section style="padding:24px 0;background:#111;color:#fff"><div class="wrap"><p style="margin:0 0 12px;font-size:13px;letter-spacing:2px;color:var(--gold)">LOGO COLOUR PATTERN — AS SEEN ON GRACEPROPERTY.PK</p><div style="display:flex;gap:12px;flex-wrap:wrap">
+<div style="flex:1;min-width:140px;background:#111;border:2px solid #fff;border-radius:12px;padding:16px"><b>Black</b><br><span style="font-size:13px;color:#ccc">Header / footer background — logo sits white-on-black</span></div>
+<div style="flex:1;min-width:140px;background:#fff;color:#111;border-radius:12px;padding:16px"><b>White</b><br><span style="font-size:13px;color:#555">Logo monogram + headings</span></div>
+<div style="flex:1;min-width:140px;background:var(--gold);color:#111;border-radius:12px;padding:16px"><b>Pale Gold</b><br><span style="font-size:13px">Buttons + accents, as seen on site (no hex verified from code)</span></div>
+</div><p style="font-size:12px;color:#ccc;margin:12px 0 0">Logo image is loaded from the business's own site (graceproperty.pk/logos/gp-logo-white.png) for this pitch demo only, with the DEMO banner above. Pale-gold in this demo is a visual match to the site, not a hex taken from their code.</p></div></section>
+<section style="padding:24px 0"><div class="wrap"><div class="card" style="background:#111;color:#fff;border-color:#111">
+<h2 style="color:#fff;margin-top:0">Connect with Grace Property</h2>
+<p style="color:#ddd">This is how a visitor connects in the live version — WhatsApp, call or email, in one tap. In this demo, the buttons below show a sample confirmation and send nothing, so no one is messaged from the demo.</p>
+<p>
+<button class="btn" onclick="demoConnect('WhatsApp: 0321 8823656')">WhatsApp Anwar AD</button>
+<button class="btn" style="background:#fff;color:#111!important" onclick="demoConnect('Call: 0321 8823656')">Call 0321 8823656</button>
+<button class="btn" style="background:transparent;border:2px solid var(--gold);color:var(--gold)!important" onclick="demoConnect('Email: contact@graceproperty.pk')">Email Grace Property</button>
+</p>
+<p id="connectDone" style="display:none;background:#1e3a1e;border-radius:10px;padding:12px"></p>
+<p style="font-size:13px;color:#ccc">Live version: WhatsApp button opens https://wa.me/923218823656, Call opens tel:+923218823656, Email opens mailto:contact@graceproperty.pk — exactly as on graceproperty.pk today.</p>
+</div></div></section>
+<section id="listings"><div class="wrap">
+<h2>Search listings (demo filters — these actually work)</h2>
+<div class="card" style="margin-bottom:16px"><div class="grid">
+<div><label>Area</label><select id="fArea"><option value="">All areas</option><option>Faisal Town</option><option>Model Town</option><option>Johar Town</option></select></div>
+<div><label>Type</label><select id="fType"><option value="">All types</option><option>House</option><option>Plot</option><option>Commercial</option></select></div>
+<div><label>Purpose</label><select id="fPurpose"><option value="">Buy or Sell</option><option>Buy</option><option>Sell</option></select></div>
+</div></div>
+<div class="grid" id="listGrid"></div>
+<p style="font-size:13px;color:#666">All cards below are sample layouts for the demo. No real property, price or address is claimed — in the live CMS, the owner adds real listings with real prices, photos and enquiry buttons.</p>
+</div></section>
+<section id="enquiry" style="background:var(--smoke)"><div class="wrap"><div class="grid2">
+<div><h2>Leave an enquiry</h2><p>On the current site there is no form at all — only WhatsApp, phone or email. Here, a buyer leaves area, budget and property type in one structured enquiry (in the demo, it saves to the CMS in this browser and sends nothing to the business).</p><div class="note"><b>What this demo adds:</b> searchable listings by area/type, a structured enquiry form, price-on-enquiry listings until real prices are added, and a CMS to manage listings and enquiries — while keeping the founder story, trust and recent-work proof that already work.</div></div>
+<div class="card"><form id="enqForm">
+<div><label>Name</label><input id="name" required></div><div><label>Phone / WhatsApp</label><input id="phone" required></div>
+<div><label>Area</label><select id="area"><option>Faisal Town</option><option>Model Town</option><option>Johar Town</option></select></div>
+<div><label>Property type</label><select id="interest"><option>House</option><option>Plot</option><option>Commercial</option></select></div>
+<div><label>Budget (optional)</label><input id="budget" placeholder="e.g. PKR 2-3 crore"></div>
+<div><label>Purpose</label><select id="purpose"><option>Buy</option><option>Sell</option></select></div>
+<div class="full"><label>Message</label><textarea id="msg" rows="3" placeholder="e.g. 10 marla house, near main boulevard"></textarea></div>
+<div class="full"><button class="btn" type="submit" style="width:100%">Send Enquiry — Demo Only</button><p id="done" style="display:none;background:#EAF6EC;border-radius:10px;padding:12px"></p></div>
+</form></div>
+</div></div></section>
+<section id="contact"><div class="wrap"><div class="card">
+<h2>Contact</h2><p><b>Grace Property Consultant — Founder: Anwar AD</b><br>188/A, HBFC, near Jinnah Hospital, Block A Faisal Town, Lahore, 54770<br>WhatsApp / Phone (as listed on site): 0321 8823656<br>Email (as listed on site): contact@graceproperty.pk<br>Hours: Monday – Saturday, 11:00 AM – 8:00 PM, closed Sunday</p>
+</div></div></section>
+</main>
+<footer><div class="wrap"><p><b style="color:var(--gold)">GRACE PROPERTY CONSULTANT — DEMO CONCEPT</b><br>Built as a pitch sample by Moin Hashmi, Lahore. Not affiliated with, or endorsed by, Grace Property Consultant. Sample listings are layouts only. No enquiry is sent from this demo. Pale-gold accent is as seen on the live site — no brand hex was verified from code.</p></div></footer>
+<script>
+const SAMPLES=[
+{area:'Faisal Town',type:'House',purpose:'Buy',title:'Sample: 12 Marla House — Faisal Town',note:'Sample house layout. Price on enquiry.'},
+{area:'Faisal Town',type:'Commercial',purpose:'Buy',title:'Sample: 10 Marla Commercial — Faisal Town',note:'Sample commercial layout. Price on enquiry.'},
+{area:'Model Town',type:'House',purpose:'Buy',title:'Sample: Residential Home — Model Town',note:'Sample house layout. Price on enquiry.'},
+{area:'Johar Town',type:'Plot',purpose:'Buy',title:'Sample: Plot — Johar Town',note:'Sample plot layout. Price on enquiry.'},
+{area:'Faisal Town',type:'House',purpose:'Sell',title:'Sample: House for Sale — Faisal Town',note:'Sample sell enquiry layout.'},
+{area:'Johar Town',type:'Commercial',purpose:'Buy',title:'Sample: Commercial Property — Johar Town',note:'Sample commercial layout. Price on enquiry.'},
+];
+function demoConnect(label){var d=document.getElementById('connectDone'); d.style.display='block'; d.innerHTML='<b>Demo connect:</b> In the live site, this would open '+label+'. From this demo, nothing was sent.';}
+function render(){
+ const ar=document.getElementById('fArea').value, ty=document.getElementById('fType').value, pu=document.getElementById('fPurpose').value;
+ const list=SAMPLES.filter(s=>(!ar||s.area===ar)&&(!ty||s.type===ty)&&(!pu||s.purpose===pu));
+ document.getElementById('listGrid').innerHTML=list.map(s=>'<div class="card"><span class="tag">'+s.area+' • '+s.type+'</span><h3>'+s.title+'</h3><p>'+s.note+'</p><p><b>Price on enquiry</b></p><a class="btn" href="#enquiry">Enquire</a></div>').join('')||'<p>No sample listings match those filters. Try All areas.</p>';
+}
+['fArea','fType','fPurpose'].forEach(id=>document.getElementById(id).addEventListener('change',render));
+render();
+document.getElementById('enqForm').addEventListener('submit',function(e){e.preventDefault();
+ const b={id:'pub'+Date.now(),name:document.getElementById('name').value,phone:document.getElementById('phone').value,area:document.getElementById('area').value,interest:document.getElementById('interest').value,budget:document.getElementById('budget').value,purpose:document.getElementById('purpose').value,msg:document.getElementById('msg').value};
+ try{var arr=JSON.parse(localStorage.getItem('gr_public_enquiries')||'[]'); arr.push(b); localStorage.setItem('gr_public_enquiries',JSON.stringify(arr));}catch(e){}
+ const d=document.getElementById('done'); d.style.display='block'; d.innerHTML='<b>Demo enquiry saved:</b> Thank you, '+b.name+'. In this demo it is saved in this browser for the CMS to review — it is NOT sent to Grace Property.';
+});
+</script>
+</body></html>
